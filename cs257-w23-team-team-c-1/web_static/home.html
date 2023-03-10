@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>High Blood Pressure Predictor</title>
+        <link rel="stylesheet" type="text/css" href="datastyle.css" media="screen" />
+    </head>
+
+    <body>
+        <h1 title="HBP">High Blood Pressure Predictor</h1>
+        <nav>
+        <ul>
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="source.html">Source</a></li>
+        </ul>
+        
+        <div class="box">
+            <p>
+            <h3><em>Do You Want to Predict High Blood Pressure?</em></h3>
+            <h3>Please Enter Country in Full with Capital First Letter (ex: Algeria), Gender as Men or Women, and Year between 1975-2015. (Note that USA is United States of America)</h3>
+            <form>
+                <select id="menu" name="menu">
+                    <option value="(0)" selected>- Select A Query -</option>
+                    <option value="(1)">Mean Systolic BP by Country and Gender</option>
+                    <option value="(2)">Susceptibility of Country for Raised BP by Year</option>
+                    <option value="(3)">Ranked Prevalence of High BP by Year</option>
+                    <option value="(4)">Average Diastolic BP by Country and Gender</option>
+                    <option value="(5)">Rank Country by Prevalence of Raised BP</option>
+                    <option value="(6)">Average BP by Country and Gender: Determine if Normal</option>
+                </select>
+    
+                <h4>Enter the Fields:</h4>
+                    
+                    <div>
+                        <label for="Year"><strong>Year:</strong></label>
+                        <input type="text" id="Year" year="Year" name="Year">  
+                    </div>
+    
+                    <div>
+                        <label for="Country"><strong>Country:</strong></label>
+                        <input type="text" id="Country" country="Country" name="Country">
+                    </div>
+    
+                    <div>
+                        <label for="Gender"><strong>Gender:</strong></label>
+                        <input type="text" id="Gender" gender="Gender" name="Gender"> 
+                    </div>
+                
+                    <div class="submit">
+                        <input type="submit" value="Submit">
+                    </div>
+            </form>
+            </p>
+        </div> 
+        <footer>
+            <nav> 
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="source.html">Source</a>
+            </nav>
+            <small>&copy; High Blood Pressure Predictor</small>
+        </footer>
+    </body>
+</html> 

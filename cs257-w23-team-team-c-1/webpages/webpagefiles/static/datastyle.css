@@ -1,0 +1,243 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: whitesmoke;
+}
+
+h1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+}
+
+a:visited {
+    color: blue;
+}
+
+h1, h2, h3 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.4;
+}
+
+figure {
+    float: left;
+    margin-right: 30px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+div {
+    clear: left;
+    padding-bottom: 20px;
+}
+
+ul {
+    width: 65%;
+}
+
+li {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.4;
+}
+
+div.content {
+    width: 65%;
+}
+
+div.highlight {
+    background-color: azure;
+    width: 300px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav ul {
+    border: 2px solid blue;
+    border-radius: 8px;
+    background-color: white;
+    background-clip: border-box;
+    list-style-type: none;
+    overflow: hidden;
+    width: 20%;
+    margin: 0 auto;
+    outline: 2px transparent;
+    
+
+}
+
+nav li {
+    float: left;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: blue;
+}
+
+
+div {
+    border-style: solid;
+    border-color: transparent;
+    border-top-width: 20px;
+    border-right-width: 40px;
+    border-bottom-width: 60px;
+}
+
+h3 {
+    padding: 20px;
+}
+
+h3 em{
+    font-size: 20px;
+    font-style: normal;
+}
+
+
+
+.img-BP {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+input {
+    margin: 10px 10px 10px 10px;
+}
+
+.picture {
+    text-align: center; 
+    margin:0;
+}
+
+h3 {
+    text-align: center; 
+    margin:0;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 10px;
+    margin-left: 0;
+}
+  
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.box {
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+nav ul li a.active {
+    color: white;
+    background-color: blue;
+}
+  
+select {
+    font-size: 16px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px; 
+    -webkit-appearance: none; 
+    appearance: none; 
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8'><path d='M0 0h12L6 8z'/></svg>"); /* adds arrow icon */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: auto 40%;
+}
+
+option {
+    font-size: 16px;
+    padding: 10px;
+}
+
+h4 {
+    font-style: none;
+    font-size: large;
+}
+
+label {
+    font-size: 1.3em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.query-result-heading{
+    display: flex;
+    align-items: center;
+
+}
+.query-result-heading img{
+    margin-bottom: 50px;
+}
+
+.img-query3 {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+h3 u{
+    text-decoration: none;
+}
+
+.query-result-double {
+    width: 600px; /* increase the width */
+    display: block;
+    margin: 0 auto;
+}
+  
+.query-result-double > div {
+    width: 100%; /* set the width of the child divs to 100% */
+    margin-right: 20px; /* increase the margin between the graphs */
+}
+  
+.query-result-double > div > canvas {
+    width: 100%; /* set the width of the canvas element to 100% */
+    height: auto; /* set the height to auto to maintain aspect ratio */
+}
