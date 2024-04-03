@@ -1,5 +1,4 @@
-# CS257: Software Design Carleton College Winter 23
-A repo created for CS257 Winter Term 2023
+# High Blood Pressure Predictor Website
 
-**Created on:** Wednesday, Jan 12, 2022
+Full stack Website for predicting HBP based on user demographics
 
